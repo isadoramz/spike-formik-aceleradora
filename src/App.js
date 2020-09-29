@@ -27,9 +27,11 @@ function App() {
             <label>Nome:</label>
             <Field type="text" name="nome" />
             <ErrorMessage name="nome" component="div" />
+            <br />
             <label>Sobrenome:</label>
             <Field type="text" name="sobrenome" />
             <ErrorMessage name="sobrenome" component="div" />
+            <br />
             <button  className="btn-primary" type="submit" disabled={isSubmitting}>
               Submit
             </button>
